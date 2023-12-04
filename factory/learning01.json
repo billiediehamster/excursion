@@ -1,0 +1,9 @@
+{
+	"name": "learning01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "34a5c0bc-5bde-4fb5-9dd4-1c1a83884fb8",
+		"tenantId": "88efad56-0b88-4d90-b53b-650896ae6948"
+	}
+}
