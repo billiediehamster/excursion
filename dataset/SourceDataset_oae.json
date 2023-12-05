@@ -1,0 +1,32 @@
+{
+	"name": "SourceDataset_oae",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "textblob"
+			},
+			"columnDelimiter": "|",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName ",
+				"type": "String"
+			}
+		]
+	}
+}
