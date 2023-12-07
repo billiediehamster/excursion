@@ -1,16 +1,13 @@
 body {
     background-color: #000000;
-    background-image: url("/resources/images/DALLEcircle.png");
+    background-image: url("resources/images/DALLEcircle.png");
     background-size: 150px;
     width: 300px;
     height: 300px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body {
- background-image: url("paper.gif");
- background-color: #cccccc;
-}
+
 .header--main {
     font-weight: normal;
     font-size: 50px;
