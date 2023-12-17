@@ -68,7 +68,7 @@
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> ImportProductCategory",
-				"ImportProduct, ImportProductCategory join(Import Product@ProductCategoryID == Import Product Category@ProductCategoryID,",
+				"ImportProduct, ImportProductCategory join(ERROR_FUNCTION('') == ERROR_FUNCTION(''),",
 				"     joinType:'inner',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
